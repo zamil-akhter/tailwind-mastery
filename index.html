@@ -10,29 +10,21 @@
 
   <body>
     <!-- Navbar -->
-    <div class="h-16 bg-white flex sticky top-0 left-0 z-50 items-center shadow-sm relative z-10 justify-between px-10">
+    <div class="h-16 bg-white/90 backdrop-blur-sm flex sticky top-0 left-0 z-50 items-center shadow-sm justify-between px-6 sm:px-10">
       <!-- nav main -->
       <p class="text-[#1C7C99] font-extrabold text-2xl">CyanFlow</p>
 
       <!-- nav center -->
-      <div class="flex justify-between w-sm">
-        <div class="w-16 flex justify-center">
-          <p class="text-sm hover:text-[#1C7C99] hover:underline hover:decoration-[#1C7C99] underline-offset-4 hover:font-semibold">Home</p>
-        </div>
-        <div class="w-16 flex justify-center">
-          <p class="text-sm hover:text-[#1C7C99] hover:underline hover:decoration-[#1C7C99] underline-offset-4 hover:font-semibold">Services</p>
-        </div>
-        <div class="w-16 flex justify-center">
-          <p class="text-sm hover:text-[#1C7C99] hover:underline hover:decoration-[#1C7C99] underline-offset-4 hover:font-semibold">About</p>
-        </div>
-        <div class="w-16 flex justify-center">
-          <p class="text-sm hover:text-[#1C7C99] hover:underline hover:decoration-[#1C7C99] underline-offset-4 hover:font-semibold">Contact</p>
-        </div>
+      <div class="hidden md:flex items-center justify-between gap-8">
+        <a href="#" class="text-sm text-gray-700 hover:text-[#1C7C99] hover:underline hover:decoration-[#1C7C99] underline-offset-4 hover:font-semibold">Home</a>
+        <a href="#" class="text-sm text-gray-700 hover:text-[#1C7C99] hover:underline hover:decoration-[#1C7C99] underline-offset-4 hover:font-semibold">Services</a>
+        <a href="#" class="text-sm text-gray-700 hover:text-[#1C7C99] hover:underline hover:decoration-[#1C7C99] underline-offset-4 hover:font-semibold">About</a>
+        <a href="#" class="text-sm text-gray-700 hover:text-[#1C7C99] hover:underline hover:decoration-[#1C7C99] underline-offset-4 hover:font-semibold">Contact</a>
       </div>
 
       <!-- nav more -->
-      <div class="nav-home group flex justify-center bg-[#C9FBF8] items-center w-28 h-8 rounded-full hover:bg-[#1BADCE]">
-        <p class="text-[#1C7C99] font-extrabold text-sm group-hover:text-[#FFFFFF]">Get Started</p>
+      <div class="group flex justify-center items-center bg-[#C9FBF8] px-4 py-2 rounded-full hover:bg-[#1BADCE] transition-colors duration-300">
+        <p class="text-[#1C7C99] font-extrabold text-sm group-hover:text-white">Get Started</p>
       </div>
     </div>
 
