@@ -8,12 +8,41 @@
     <link href="/src/input.css" rel="stylesheet" />
 </head>
 
-<body class="bg-gray-50 text-gray-900">
+<body>
+    <!-- Default state
+    
+    Background: light cyan — #C9FBF8
+    Heading/text: teal — #1C7C99
+    Body text: same teal, slightly lighter/muted — #2D8AA6
+    
 
-    <h1 class="text-3xl font-bold text-center mt-10">
-        Hello Tailwind 👋
-    </h1>
+    Hover state 
+    
+    Background: solid teal — #1BADCE
+    Heading/text: white — #FFFFFF
+    Body text: white — #FFFFFF -->
 
+    <!-- Navbar -->
+    <div class="h-16 bg-white flex items-center shadow-sm relative z-10 justify-between px-10">
+        <!-- nav main -->
+        <p class="text-[#1C7C99] font-extrabold text-2xl">CyanFlow</p>
+        
+        <!-- nav center -->
+        <div class="flex justify-between w-sm">
+            <p class="text-sm hover:text-[#1C7C99] hover:underline hover:decoration-[#1C7C99] underline-offset-4 hover:font-semibold transition-transform duration-200 hover:scale-110">Home</p>
+            <p class="">Services</p>
+            <p>About</p>
+            <p>Contact</p>            
+        </div>
+
+        <!-- nav more -->
+        <div class="nav-home group flex justify-center bg-[#C9FBF8] items-center w-28 h-8 rounded-full hover:bg-[#1BADCE] ">
+            <p class="text-[#1C7C99] font-extrabold text-sm group-hover:text-[#FFFFFF]">Get Started</p>
+        </div>
+    </div>
+    <div class="bg-gray-100 h-screen">
+
+    </div>
 </body>
 
 </html>
